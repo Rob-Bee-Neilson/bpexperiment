@@ -1,0 +1,46 @@
+{
+  "name": "bpexperiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon server --watch",
+    "server": "node server",
+    "start": "node server",
+    "test": "jest --watchAll",
+    "win": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rob-Bee-Neilson/bpexperiment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rob-Bee-Neilson/bpexperiment/issues"
+  },
+  "homepage": "https://github.com/Rob-Bee-Neilson/bpexperiment#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^24.1.0",
+    "knex": "^0.16.3",
+    "path": "^0.12.7",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-hot-loader": "^4.7.1",
+    "sqlite": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "nodemon": "^1.18.10",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  }
+}
